@@ -1,4 +1,4 @@
-### Chapter 1 covers a high level overview of Machine Learning, including:
+Chapter 1 covers a high level overview of Machine Learning, including:
 
 <ul>
   <li>1. What it is / why it's needed</li>
