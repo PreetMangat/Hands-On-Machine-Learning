@@ -34,6 +34,8 @@ Another common task for supervised learning is regression. Regression predicts a
 
 #### Question 8 - Would you frame the problem of spam detection as a supervised learning problem, or an unsupervised learning problem?
 
+I would frame the problem of spam detection as a supervised learning problem. This is because the training data for a model in this domain would have to be labelled (spam, or not spam), as this is a classification problem.
+
 #### Question 9 - What is an online learning system?
 
 #### Question 10 - What is out-of-core learning?
