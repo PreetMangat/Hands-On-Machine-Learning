@@ -38,6 +38,12 @@ I would frame the problem of spam detection as a supervised learning problem. Th
 
 #### Question 9 - What is an online learning system?
 
+An online learning system is a method of machine learning in which the data is sequentially and incrementally fed into the machine learning algorithm, as soon as it arrives. The algorithm updates its parameters after learning from each individual training instance. 
+
+This is opposed to batch (or offline) learning, where the entire dataset is fed into the algorithm at once.
+
+An online learning system is a great option when the dataset is too large to fit entirely into memory (thus it pairs well with out-of-core learning), or when it's known that the model will need to deal with newly, varying, incoming data on a frequent basis.
+
 #### Question 10 - What is out-of-core learning?
 
 #### Question 11 - What type of learning algorithm relies on a similarity measure to make predictions?
