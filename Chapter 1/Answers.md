@@ -28,7 +28,17 @@ Another common task for supervised learning is regression. Regression predicts a
 
 #### Question 5 - What are 4 common unsupervised tasks?
 
+One common task for unsupervised learning is clustering. Clustering involves finding similarities between data instances and grouping them together based on these similarities. It may sound similar to classification but the difference is that with classification, these similarities / categories are known ahead of time whereas with clustering, the machine learning algorithm must discover these similarities by itself.
+
+Another common task for unsupervised learning is anomaly and novelty detection. Both of these tasks require the algorithm to be able to detect outliers in data, or find data instances that have some unusual feature compared to the other instances. However, they differ with how strict they are when it comes to detection. A good example provided by the textbook that explains the differences is as follows: Imagine you have thousands of dog pictures, and 1% of these pictures are of Chihuahuas. In novelty detection, the algorithm should not treat new pictures of Chihuahuas as novelties or outliers, whereas in anomaly detection these dogs might be so rare and different than other dogs that it would classify them as anomalies.
+
+Another common task for unsupervised learning is Visualization and dimensionality reduction. Visualization algorithms take a lot of complex and unlabeled data, and can output 2d or 3d repersentations that can be plotted. Generally, visualization algorithms try and preserve as much structure from the data as possible so that humans can see and understand how the data is organized, in order to identify unsuspected patterns. Somewhat related, is deimensionality reduction. These algorithms try and simplify the data without losing too much information. A common way to do this is by merging several correlated features into one. For example, a car's mileage may be strongly correlated with its age, so a dimensionality reduction algorithm can merge them into one feature that repersents the car's wear and tear.
+
+Lastly, one other common task for unsupervised learning is association rule learning. These algorithms analyze large amounts of data and discover relationships between attributes. This differs from clustering, as these relationships don't necessarily imply that the attributes should be grouped together into one category.
+
 #### Question 6 - What type of Machine Learning algorithm would you use to allow a robot to walk in various unknown terrains?
+
+A good machine learning algorithm to use in this case would be reinforcement learning, as the agent would be able to observe the environment and make decisions based on rewards (for example, staying upright and moving) and penalties (for example, falling, not moving because it got stuck, etc).
 
 #### Question 7 - What type of algorithm would you use to segment your customers into multiple groups?
 
